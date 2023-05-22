@@ -1,0 +1,4 @@
+ejemplo-sucursales:
+  ribbon:
+    listOfServers: https://ejemplo-sucursales-capacitacion-david-ochoa.brmdocp.banregio.com
+  uri: ejemplo-sucursales
