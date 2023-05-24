@@ -20,4 +20,8 @@ public class PersonasFacade {
     public List<Persona> findByName(String name){
         return personasRepository.findByName(name);
     }
+
+    public Persona save(Persona persona){
+        return personasRepository.save(persona);
+    }
 }
