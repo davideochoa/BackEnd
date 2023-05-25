@@ -19,4 +19,8 @@ public class PersonasService {
     public List<Persona> findByName(String name){
         return personasFacade.findByName(name);
     }
+
+    public Persona save(Persona persona){
+        return personasFacade.save(persona);
+    }
 }

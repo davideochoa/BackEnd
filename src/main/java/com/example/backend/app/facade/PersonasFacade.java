@@ -17,14 +17,6 @@ public class PersonasFacade {
         this.personasRepository = personasRepository;
     }
 
-    public Iterable<Persona> findAll(String name){
-        return personasRepository.findAll();
-    }
-
-    public List<Persona> findByName(String name){
-        return personasRepository.findByName(name);
-    }
-
     public Persona save(Persona persona){
         return personasRepository.save(persona);
     }

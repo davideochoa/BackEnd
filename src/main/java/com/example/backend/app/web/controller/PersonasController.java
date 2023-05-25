@@ -22,6 +22,9 @@ public class PersonasController {
         this.personasService = personasService;
     }
 
+    @PostMapping("/")
+    public Persona save(Persona persona){personasService.save(Persona)}
+
     @GetMapping("")
     public List<Persona> findByAll(@PathVariable("name") String name){
         return personasService.findByName(name);
